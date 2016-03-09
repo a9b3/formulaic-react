@@ -1,0 +1,31 @@
+{
+  "name": "formulaic-react",
+  "version": "0.0.1",
+  "description": "React form input validation",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/esayemm/formulaic-react"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel ./src/ -d ./lib/"
+  },
+  "author": "Sam Lau",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "form",
+    "forms",
+    "validation",
+    "react-component"
+  ],
+  "peerDependencies": {
+    "react": "^0.14.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.0",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-preset-react": "^6.0.14"
+  },
+  "dependencies": {}
+}
