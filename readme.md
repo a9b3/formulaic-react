@@ -1,10 +1,10 @@
-# Formulaic
+# formulaic-react
 
 React form validation
 
 ## Install
 
-`npm install --save formulaic`
+`npm install --save formulaic-react`
 
 ## Example
 
@@ -12,7 +12,7 @@ A simple login form.
 
 ```javascript
 import React, { Component } from 'react'
-import Formulaic from 'formulaic'
+import Formulaic from 'formulaic-react'
 
 class SignupContainer extends Component {
   constructor() {
@@ -83,6 +83,8 @@ class SignupContainer extends Component {
   }
 }
 ```
+
+You can style it using these class names.
 
 ```css
 .form {
